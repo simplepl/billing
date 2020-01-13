@@ -54,7 +54,7 @@ body {
 <div class="main">
 
 <?php
-include('config.php');
+include('session.php');
  $sql = "SELECT billno,item,hsn,price,quantity,unit,amount FROM billdetails";
  $result = $db->query($sql);
 echo "<table><tr><th>Bill no</th><th>Item</th><th>hsn</th><th>price</th><th>quantity</th><th>unit</th><th>Amount</th></tr>";
